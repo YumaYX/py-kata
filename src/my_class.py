@@ -3,7 +3,8 @@ class MyClass:
         self.text = text
 
     def my_method(self):
-        print(self.text)
+        for i in range(3):
+            print(f"{self.text} :{i}")
 
     def set_text(self, text):
         self.text = text
