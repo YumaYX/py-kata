@@ -12,3 +12,4 @@ update: test clean
 	sleep 5
 	git add .
 	git commit -am 'update'
+	git push
